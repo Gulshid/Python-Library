@@ -4,6 +4,10 @@ import numpy as np
 # np.mean(data)
 # np.dot(A,B)
 # np.linalg.det(A)
+# np.linalg.inv(A)
+
+# np.min(data)
+# np.max(data)
 
 # 2 X 3 Matrix
 data = np.array([
@@ -48,3 +52,18 @@ print("===============")
 # Det Operation
 print("Determinent of A :")
 print(np.linalg.det(B))
+
+print("===============")
+# Inverse Operation
+print("Inverse of B :")
+print(np.linalg.inv(B))
+
+print("===============")
+# Min Operation
+print("Min of data :")
+print(np.min(data))
+
+print("===============")
+# Max Operation
+print("Max of data :")
+print(np.max(data))
