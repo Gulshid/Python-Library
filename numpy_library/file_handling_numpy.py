@@ -14,7 +14,7 @@ print(sample_data)
 
 print("===================")
 # 1. Savetxt
-np.savetxt('sample_date.csv', sample_data, delimiter=',', fmt="%d")
+np.savetxt('numpy_library/sample_date.csv', sample_data, delimiter=',', fmt="%d")
 
 print("===================")
 # 2 loadtxt
